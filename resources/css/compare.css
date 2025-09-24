@@ -1,0 +1,40 @@
+.compare .list {
+	display: grid;
+	background-color: var(--white);
+	grid-auto-rows: 50px;
+}
+
+.compare .row {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	border-bottom: 1px solid var(--lightgray);
+}
+
+.compare .item {
+	display: grid;
+	align-items: center;
+	justify-items: start;
+}
+
+.compare .table-title {
+	position: relative;
+}
+
+.compare .table-title:hover .close {
+	display: block;
+}
+
+.compare .close {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--lightgray);
+}
+
+.compare .list button, .compare .list button:hover {
+	border: 1px solid var(--lightgray);
+	border-radius: 100px;
+	padding: 0px 3px;
+	background-color: var(--white);
+}

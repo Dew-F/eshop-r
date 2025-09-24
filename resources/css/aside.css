@@ -1,0 +1,9 @@
+.aside .active {
+	background-color: var(--lightgray);
+}
+
+.aside-sticky {
+	position: sticky;
+	top: 70px;
+	height: min-content;
+}

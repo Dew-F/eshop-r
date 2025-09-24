@@ -1,0 +1,40 @@
+.auth {
+	display: grid;
+	margin: 100px auto auto auto;
+	background-color: var(--white);
+	min-width: 200px;
+	min-height: 250px;
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.auth p {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.auth label {
+	float: left;
+}
+
+.auth .remember {
+	margin-left: 5px;
+	vertical-align: middle;
+	margin-bottom: 1px;
+	height: 15px;
+	width: 15px;
+}
+
+.auth .nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.auth .forget  {
+	text-align: right;
+}
+
+.auth .nav a {
+	color: #0000FF;
+	text-decoration: underline;
+}

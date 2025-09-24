@@ -1,0 +1,22 @@
+.history table {
+	border: 1px solid var(--lightgray);
+	border-collapse: collapse;
+	background-color: var(--white);
+}
+
+.history tr {
+	border: 1px solid var(--lightgray);
+}
+
+.history td {
+	border: 1px solid var(--lightgray);
+	padding: 4px;
+	text-align: center;
+	max-width: 250px;
+	max-height: 250px;
+	overflow: auto;
+}
+
+.history {
+	display: grid;
+}

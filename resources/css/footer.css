@@ -1,0 +1,15 @@
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	color: var(--lightgray);
+	align-items: center;
+}
+
+.footer a{
+	color: var(--lightgray);
+}
+
+footer {
+	background-color: var(--gray);
+}

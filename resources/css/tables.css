@@ -1,0 +1,33 @@
+.adminpanel-tables {
+	max-height: 100%;
+	max-width: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+.adminpanel-tables table {
+	border: 1px solid var(--lightgray);
+	border-collapse: collapse;
+	background-color: var(--white);
+	max-height: 100%;
+	max-width: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.adminpanel-tables tr {
+	border: 1px solid var(--lightgray);
+}
+
+.adminpanel-tables td {
+	border: 1px solid var(--lightgray);
+	padding: 4px;
+	text-align: center;
+	max-width: 250px;
+	max-height: 250px;
+	overflow-x: auto;
+}
+
+.adminpanel-tables {
+	display: grid;
+}

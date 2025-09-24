@@ -1,0 +1,39 @@
+.cart .counter {
+	display: grid;
+	grid-auto-flow: column;
+	width: 100%;
+	height: min-content;
+	align-items: center;
+	justify-items: center;
+	grid-column: 4;
+	grid-row: 2;
+}
+
+.cart .delete {
+	display: grid;
+	width: 100%;
+	grid-row: 3;
+	grid-column: 4;
+	align-items: center;
+}
+
+.cart .counter .button {
+	padding: 10px;
+	margin: 0;
+}
+
+.cart .counter .form {
+	height: 100%;
+	width: 100%;
+}
+
+.cart .counter .form > .count {
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.cart > div, .cart .button {
+	margin-bottom: 10px;
+}

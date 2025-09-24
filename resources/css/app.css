@@ -1,0 +1,22 @@
+@import 'vars';
+@import 'general';
+@import 'structure';
+
+@import 'header';
+@import 'aside';
+@import 'main';
+@import 'footer';
+
+@import 'auth';
+@import 'products';
+@import 'cart';
+@import 'subcategories';
+@import 'product';
+@import 'orderdetails';
+@import 'compare';
+@import 'tables';
+@import 'edit';
+@import 'profile';
+@import 'history';
+
+@import 'tabs';

@@ -1,0 +1,19 @@
+.edit .table {
+	background-color: var(--white);
+	margin: auto;
+}
+
+.edit td {
+	padding: 4px;
+}
+
+.edit table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.edit {
+	display: grid;
+	background-color: var(--white);
+	height: auto;
+}
